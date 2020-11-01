@@ -1,0 +1,48 @@
+{
+  "name": "cypress-snippets",
+  "displayName": "Cypress Snippets by iJS",
+  "description": "Cypress Testing Snippets",
+  "publisher": "iJS",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijsto/cypress-snippets"
+  },
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": "(Scott) Agirs Neminskis <scott@ijs.to>",
+  "keywords": [
+    "Cypress Snippets",
+    "VSCode",
+    "Snippets",
+    "javascript testing snippets",
+    "React testing snippets",
+    "vue testing snippets",
+    "Nextjs testing snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
